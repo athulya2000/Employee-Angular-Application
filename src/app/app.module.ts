@@ -10,6 +10,7 @@ import { EmployeeSearchComponent } from './employee-search/employee-search.compo
 import { EmployeeViewComponent } from './employee-view/employee-view.component';
 import { EmployeeDeleteComponent } from './employee-delete/employee-delete.component';
 import { EmployeeEditComponent } from './employee-edit/employee-edit.component';
+import { EmployeeNavbarComponent } from './employee-navbar/employee-navbar.component';
 
 const myRoute:Routes=[
   {
@@ -46,7 +47,8 @@ const myRoute:Routes=[
     EmployeeSearchComponent,
     EmployeeViewComponent,
     EmployeeDeleteComponent,
-    EmployeeEditComponent
+    EmployeeEditComponent,
+    EmployeeNavbarComponent
   ],
   imports: [
     BrowserModule,
