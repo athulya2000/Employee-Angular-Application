@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee-view.component.css']
 })
 export class EmployeeViewComponent {
-
+name="Athulya"
 }
