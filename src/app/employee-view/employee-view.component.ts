@@ -6,5 +6,36 @@ import { Component } from '@angular/core';
   styleUrls: ['./employee-view.component.css']
 })
 export class EmployeeViewComponent {
-name="Athulya"
+data:any=[
+{
+  "name":"Athulya",
+  "Designation":"Software Engineer Trainee",
+  "Salary":25000,
+  "Company":"Nest"
+},
+{
+  "name":"Anjana",
+  "Designation":"Software Engineer Trainee",
+  "Salary":25000,
+  "Company":"Nest"
+},
+{
+  "name":"Athira",
+  "Designation":"Software Engineer Trainee",
+  "Salary":25000,
+  "Company":"Nest"
+},
+{
+  "name":"Shivak",
+  "Designation":"Software Engineer Trainee",
+  "Salary":25000,
+  "Company":"Nest"
+},
+{
+  "name":"Aswathi",
+  "Designation":"Software Engineer Trainee",
+  "Salary":25000,
+  "Company":"Nest"
+}
+]
 }

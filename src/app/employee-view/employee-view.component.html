@@ -1,92 +1,36 @@
 <app-employee-navbar></app-employee-navbar>
-<h1>Welcome{{name}}</h1>
-<!-- <div class="container">
+
+<div class="container">
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
            
-                    <table class="table">
+                    <table class="table table-striped text-centre">
+                        <thead>
+                        
                         <tr>
-                            <td><h4>Name</h4></td>
-                            <td><h4>Employee Code</h4></td>
-                            <td><h4>Destination</h4></td>
+                            
+                            <th scop="col">Name</th>
+                            <th scop="col">Designation</th>
+                            <th scop="col">Salary</th>
+                            <th scop="col">Company</th>
+                           
                         </tr>
                     
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let i of data" >
+                            <td>{{i.name}}</td>
+                            <td>{{i.Designation}}</td>
+                            <td>{{i.Salary}}</td>
+                            <td>{{i.Company}}</td>
+                        </tr>
+                    </tbody>
                
-                    
-                        <tr>
-                            <td>Akhil</td>
-                            <td>12354</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                    
-               
-                    
-                        <tr>
-                            <td>Abay</td>
-                            <td>4569</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                   
-               
-                    
-                        <tr>
-                            <td>Mrudula</td>
-                            <td>7895</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                    
-              
-                    
-                        <tr>
-                            <td>Abhirami</td>
-                            <td>4562</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                    
-                
-                   
-                        <tr>
-                            <td>Nikhil</td>
-                            <td>7895</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                    
-               
-                    
-                        <tr>
-                            <td>Miya</td>
-                            <td>7893</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                    
-                
-                    
-                        <tr>
-                            <td>Sima</td>
-                            <td>45623</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                   
-                
-                   
-                        <tr>
-                            <td>Dibin</td>
-                            <td>1258</td>
-                            <td>Software Engineer</td>
-                        </tr>
-                
-                
-                    
-                        <tr>
-                            <td>George</td>
-                            <td>7852</td>
-                            <td>Software Engineer</td>
-                        </tr>
                     </table>
-                    
+                     
                 </div>
             </div>
                         
         
         </div>
- -->
+
